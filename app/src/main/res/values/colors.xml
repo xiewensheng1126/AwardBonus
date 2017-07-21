@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#F05124</color>
+    <color name="colorPrimaryDark">#70bb3a</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <!--  activity背景-->
+    <color name="base_bg">#FAFAFA</color>
+
+    <!-- 通用颜色-->
+    <color name="green">#02bb00</color>
+    <color name="yellow">#F5FA00</color>
+    <color name="white">#ffffff</color>
+    <color name="gray">#b2b2b2</color>
+    <color name="red">#F70909</color>
+    <color name="red_01">#e36642</color>
+    <color name="orange1">#ff9500</color>
+    <color name="transparent">#00000000</color>
+    <color name="blue">#5f7df2</color>
+    <color name="blue_1">#5f7df2</color>
+    <color name="purples">#894699</color>
+    <color name="black">#282828</color>
+
+</resources>

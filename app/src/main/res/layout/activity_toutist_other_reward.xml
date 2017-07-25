@@ -7,33 +7,14 @@
     android:orientation="vertical">
 
 
-    <RelativeLayout
+    <FrameLayout
         android:layout_width="match_parent"
         android:layout_height="90dp">
 
-        <LinearLayout
-            android:id="@+id/rl_call_message"
-            android:layout_width="match_parent"
-            android:layout_height="40dp"
-            android:layout_marginTop="10dp"
-            android:background="#faebc3"
-            android:gravity="center"
-            android:visibility="gone">
-
-            <TextView
-                android:id="@+id/tv_call"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_centerVertical="true"
-                android:layout_marginLeft="10dp"
-                android:text="单次支付的总额不可超过2000元"
-                android:textColor="#e36642"
-                android:textSize="@dimen/text_size_small" />
-        </LinearLayout>
+        <include layout="@layout/layout_prompt_box" />
 
         <include layout="@layout/layout_title_heard"></include>
-
-    </RelativeLayout>
+    </FrameLayout>
 
     <LinearLayout
         android:layout_width="match_parent"

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/rl_prompt_box"
+    android:layout_width="match_parent"
+    android:layout_height="40dp"
+    android:layout_marginTop="10dp"
+    android:background="#faebc3"
+    android:gravity="center"
+    android:visibility="gone"
+    tools:showIn="@layout/activity_toutist_other_reward">
+
+    <TextView
+        android:id="@+id/tv_call"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="10dp"
+        android:text="单次支付的总额不可超过2000元"
+        android:textColor="#e36642"
+        android:textSize="@dimen/text_size_small" />
+</LinearLayout>

@@ -60,11 +60,10 @@ public class RewardActivity extends BaseActivity {
         tv_reward.setClickable(true);
     }
 
-
     /**
      * View监听
      */
- 
+
     public void initeListener() {
 
         et_input.addTextChangedListener(new TextWatcher() {
@@ -92,15 +91,12 @@ public class RewardActivity extends BaseActivity {
                     tv_money.setText(s.toString().substring(1, s.toString().trim().length()));
                 } else {
                     if (Float.parseFloat(s.toString().trim()) > 2000) {
-                        tv_money.setText("2000");
-                        et_input.setText("2000");
-
-
+                        tv_money.setText(s.toString().trim());
+                        tv_reward.setEnabled(false);
                         showOrHindeAnimation(true);
                     } else if (Float.parseFloat(s.toString().trim()) == 2000) {
 
                     } else {
-
                         new Handler().postDelayed(new Runnable() {
                             @Override
                             public void run() {
@@ -113,8 +109,9 @@ public class RewardActivity extends BaseActivity {
                             }
                         }, 100);
                         showOrHindeAnimation(false);
+                        tv_reward.setEnabled(true);
                     }
-                    tv_reward.setEnabled(true);
+
                 }
             }
 

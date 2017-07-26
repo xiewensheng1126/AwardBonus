@@ -47,7 +47,6 @@
                 android:digits="0123456789."
                 android:gravity="center_vertical|right"
                 android:inputType="number"
-                android:maxLength="6"
                 android:singleLine="true"
                 android:textColor="#4a4a4a"
                 android:textCursorDrawable="@drawable/color_cursor"
